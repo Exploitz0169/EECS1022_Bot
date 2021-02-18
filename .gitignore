@@ -4,3 +4,7 @@ gradlew.bat
 notes.txt
 gradlew
 build
+.classpath
+.project
+.settings
+bin
