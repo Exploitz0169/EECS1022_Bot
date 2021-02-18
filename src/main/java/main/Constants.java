@@ -4,7 +4,7 @@ package main;
 public class Constants {
 
     // Discord bot account token
-    public static final String token = "";
+    public static final String token = "ODExMjk5NjI2NTUyNTI0ODMy.YCwLqA.0DBZ7tOyPwajk9np6j0upzDmmQk";
 
     // Command prefix
     public static final String commandPrefix = "?";
