@@ -7,7 +7,7 @@ public class Constants {
     public static final String token = "";
 
     // Command prefix
-    public static final String commandPrefix = "?";
+    public static final String commandPrefix = "$";
 
     // Can ping the bot instead of using prefix to run commands
     public static final boolean useMentionAsPrefix = true;
@@ -31,7 +31,7 @@ public class Constants {
     public static final String commandNotFoundMessage = "{username}, that command was not found.";
 
     // Message sent if user does not has permissions for command
-    public static final String noPermissionsMessage = "{userMention} you do not has permissions to use this command!";
+    public static final String noPermissionsMessage = "{userMention} you do not have permissions to use this command!";
 
     // Command categories that will show in help command
     public static final String[] categories = {"general", "moderation", "fun"};
