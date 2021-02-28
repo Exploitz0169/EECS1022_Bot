@@ -2,6 +2,7 @@
 package main;
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
+import org.json.JSONObject;
 
 import java.util.concurrent.TimeUnit;
 
@@ -44,7 +45,18 @@ public class Utils {
     }
 
 
+    public static JSONObject toJSON (String jsonString) {
+        return new JSONObject(jsonString);
+    }
 
+    public static String formatMitsukuMessage (String message) {
+
+        return message.replace("<image>https://web23.secure-secure.co.uk/square-bear.co.uk/pandorabots/giphylogo.png</image>", "")
+                        .replace("<image>", "")
+                        .replace("</image>", "")
+                        .replace("„", " ");
+
+    }
 
 
 }
